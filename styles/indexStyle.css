@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+/*fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/*menu*/
+header{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDB 100%);
+
+    width: 100%;
+    height: 175px;
+}
+
+
+/*navegação*/
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+
+    width: 1310px;
+    height: 122px;
+    margin: 0 auto;
+}
+
+.menu a{
+    width: 645px;
+}
+
+.logo{
+    width: 161px;
+    height: 49px;
+}
+
+.icones{
+    list-style: none;
+
+    width: 645px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: gray;
+
+    gap: 6px;
+}
+
+.icones li i{
+    font-size: 23px;
+}
+
+.icones li p{
+    font-size: 18px;
+}
+
+.maior{
+    padding-right: 16px;
+}
+
+/*faixa de baixo da navegação que eu não faço a menor ideia do nome*/
+
+.bagulhete{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #DBDBDB 100%);
+
+    width: 100%;
+    height: 53px;
+}
+
+.opcoes{
+    list-style: none;
+    
+    height: 53px;
+    width: 1300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    gap: 144px;
+}
+
+.opcoes li{
+    padding: 20px;
+}
+
+.promocional img{
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+ /*Conteúdo da Página inicial*/
+
+.conteudo{
+    background-image: linear-gradient(180deg, #00305d 0%, #000825 100%);
+
+    height: 1145px;
+    width: 1519px;
+}
+
+/*competências*/
+
+.competencias{
+    height: 1145px;
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: -5px;
+    padding-top: 50px;
+}
+
+.competencias h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.blocos{
+    display: grid;
+    grid-template: 300px 300px 300px / 418px 418px 418px;
+    gap: 22px;
+
+    list-style: none;
+}
+
+.blocos li{
+    padding: 35px;
+    padding-top: 217px;
+    border-radius: 15px;
+    border: 1px solid #006278;
+
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+
+    background-color: aqua;
+    background-size: cover;
+}
+
+
+.blocos li:nth-child(1){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Compete%CC%82ncias_Banners_01.png);
+}
+.blocos li:nth-child(2){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-02.png);
+}
+.blocos li:nth-child(3){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-03.png);
+}
+.blocos li:nth-child(4){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-04.png);
+}
+.blocos li:nth-child(5){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-05.png);
+}
+.blocos li:nth-child(6){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-06.png);
+}
+.blocos li:nth-child(7){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-07.png);
+}
+.blocos li:nth-child(8){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-08.png);
+}
+.blocos li:nth-child(9){
+    background-image: url(https://www.itaipuparquetec.org.br/wp-content/uploads/2022/04/3_Competências_Banners-09.png);
+}
+
+/*seção nada*/
+
+.absoluto-nada .nada{
+    height: 300px;
+}
+
+svg.cima{
+    fill: #000825;
+}
+
+svg.baixo{
+    fill: #00305d;
+    transform: scaleY(-1);
+}
+
+/*rodapé*/
+
+footer{
+    height: 490px;
+    margin-top: -5px;
+    background: linear-gradient(180deg, #00305d 0%, #000825 100%);
+}
+
+footer .logo-branca{
+    height: 120px;
+    width: 214px;
+    margin-top: 56px;
+}
+
+.bagulho{
+    width: 1300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+footer .informacoes{
+    width: 398px;
+}
+
+.informacoes ul{
+    margin-bottom: 10px;
+
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 6px;
+
+}
+
+.endereco{
+    width: 398px;
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.endereco p, h5{
+    height: 23px;
+}
+
+.informacoes ul i{
+    color: #0082C4;
+    font-size: 25px;
+}
+
+.informacoes button{
+    height: 34px;
+    width: 352px;
+
+    border-radius: 17px;
+    border: 1px  solid #0082C4;
+    color: #FFFFFF;
+
+    background: linear-gradient(180deg, #0082C4 0%, #006278 100%);
+}
+
+.topicos{
+    width: 663px;
+    padding-right: 60px;
+    font-size: 18px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.botao{
+    width: 199px;
+    height: 208px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.botao button{
+    height: 47px;
+    width: 129px;
+    border-radius: 23px;
+}
+
+.botao button a{
+    text-decoration: none;
+    color: #00305d;
+}
+
+.linha-baixa{
+    margin-top: 50px;
+    
+    text-align: center;
+    font-size: 12px;
+    color: #003C6A;
+}
